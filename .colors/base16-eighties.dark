@@ -1,0 +1,71 @@
+! Base16 Eighties
+! Scheme: Chris Kempson (http://chriskempson.com)
+
+! BLACK
+#define base00 #2d2d2d
+!----------------------------
+! LIGHT BLACK
+#define base01 #393939
+!----------------------------
+! DARK GRAY
+#define base02 #515151
+!----------------------------
+! LIGHT DARK GRAY
+#define base03 #747369
+!----------------------------
+! LIGHT GRAY
+#define base04 #a09f93
+!----------------------------
+! LIGHTER GRAY
+#define base05 #d3d0c8
+!----------------------------
+! VERY LIGHT GRAY
+#define base06 #e8e6df
+!----------------------------
+! VERY VERY LIGHT GRAY
+#define base07 #f2f0ec
+!----------------------------
+! LIGHT RED
+#define base08 #f2777a
+!----------------------------
+! ORANGE
+#define base09 #f99157
+!----------------------------
+! YELLOW
+#define base0A #ffcc66
+!----------------------------
+! GREEN
+#define base0B #99cc99
+!----------------------------
+! AQUA
+#define base0C #66cccc
+!----------------------------
+! BLUE
+#define base0D #6699cc
+!----------------------------
+! PURPLE
+#define base0E #cc99cc
+!----------------------------
+! DARK ORANGE
+#define base0F #d27b53
+!----------------------------
+
+URxvt*foreground:   base05
+URxvt*background:   base00
+URxvt*cursorColor:  base0A
+URxvt*color0:       base00
+URxvt*color1:       base08
+URxvt*color2:       base0B
+URxvt*color3:       base0A
+URxvt*color4:       base0D
+URxvt*color5:       base0E
+URxvt*color6:       base0C
+URxvt*color7:       base05
+URxvt*color8:       base03
+URxvt*color9:       base09
+URxvt*color10:      base0B
+URxvt*color11:      base02
+URxvt*color12:      base0D
+URxvt*color13:      base06
+URxvt*color14:      base0C
+URxvt*color15:      base07
