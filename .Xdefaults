@@ -1,4 +1,27 @@
+!#include "/home/morgan/.colors/base16-tomorrow.dark"
 #include "/home/morgan/.colors/base16-eighties.dark"
+!#include "/home/morgan/.colors/base16-solarized.dark"
+!#include "/home/morgan/.colors/base16-bright.dark"
+
+URxvt*foreground:   base05
+URxvt*background:   base00
+URxvt*cursorColor:  base0A
+URxvt*color0:       base00
+URxvt*color1:       base08
+URxvt*color2:       base0B
+URxvt*color3:       base0A
+URxvt*color4:       base0D
+URxvt*color5:       base0E
+URxvt*color6:       base0C
+URxvt*color7:       base05
+URxvt*color8:       base03
+URxvt*color9:       base09
+URxvt*color10:      base0B
+URxvt*color11:      base02
+URxvt*color12:      base0D
+URxvt*color13:      base06
+URxvt*color14:      base0C
+URxvt*color15:      base07
 
 URxvt*font: xft: Source Code Pro for Powerline:pixelsize=12:antialias=true:hinting=true
 URxvt*boldFont: xft:Source Code Pro for Powerline:bold:pixelsize=12:antialias=true:hinting=true

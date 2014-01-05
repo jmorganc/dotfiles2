@@ -1,52 +1,52 @@
-! Base16 Eighties
-! Scheme: Chris Kempson (http://chriskempson.com)
+! Base16 Solarized
+! Scheme: Ethan Schoonover (http://ethanschoonover.com/solarized)
 
 ! BLACK
-#define base00 #2d2d2d
+#define base00 #002b36
 !----------------------------
 ! LIGHT BLACK
-#define base01 #393939
+#define base01 #073642
 !----------------------------
 ! DARK GRAY
-#define base02 #515151
+#define base02 #586e75
 !----------------------------
 ! LIGHT DARK GRAY
-#define base03 #747369
+#define base03 #657b83
 !----------------------------
 ! LIGHT GRAY
-#define base04 #a09f93
+#define base04 #839496
 !----------------------------
 ! LIGHTER GRAY
-#define base05 #d3d0c8
+#define base05 #93a1a1
 !----------------------------
 ! VERY LIGHT GRAY
-#define base06 #e8e6df
+#define base06 #eee8d5
 !----------------------------
 ! VERY VERY LIGHT GRAY
-#define base07 #f2f0ec
+#define base07 #fdf6e3
 !----------------------------
 ! LIGHT RED
-#define base08 #f2777a
+#define base08 #dc322f
 !----------------------------
 ! ORANGE
-#define base09 #f99157
+#define base09 #cb4b16
 !----------------------------
 ! YELLOW
-#define base0A #ffcc66
+#define base0A #b58900
 !----------------------------
 ! GREEN
-#define base0B #99cc99
+#define base0B #859900
 !----------------------------
 ! AQUA
-#define base0C #66cccc
+#define base0C #2aa198
 !----------------------------
 ! BLUE
-#define base0D #6699cc
+#define base0D #268bd2
 !----------------------------
 ! PURPLE
-#define base0E #cc99cc
+#define base0E #6c71c4
 !----------------------------
 ! DARK ORANGE
-#define base0F #d27b53
+#define base0F #d33682
 !----------------------------
 

@@ -1,52 +1,52 @@
-! Base16 Eighties
+! Base16 Bright
 ! Scheme: Chris Kempson (http://chriskempson.com)
 
 ! BLACK
-#define base00 #2d2d2d
+#define base00 #000000
 !----------------------------
 ! LIGHT BLACK
-#define base01 #393939
+#define base01 #303030
 !----------------------------
 ! DARK GRAY
-#define base02 #515151
+#define base02 #505050
 !----------------------------
 ! LIGHT DARK GRAY
-#define base03 #747369
+#define base03 #b0b0b0
 !----------------------------
 ! LIGHT GRAY
-#define base04 #a09f93
+#define base04 #d0d0d0
 !----------------------------
 ! LIGHTER GRAY
-#define base05 #d3d0c8
+#define base05 #e0e0e0
 !----------------------------
 ! VERY LIGHT GRAY
-#define base06 #e8e6df
+#define base06 #f5f5f5
 !----------------------------
 ! VERY VERY LIGHT GRAY
-#define base07 #f2f0ec
+#define base07 #ffffff
 !----------------------------
 ! LIGHT RED
-#define base08 #f2777a
+#define base08 #fb0120
 !----------------------------
 ! ORANGE
-#define base09 #f99157
+#define base09 #fc6d24
 !----------------------------
 ! YELLOW
-#define base0A #ffcc66
+#define base0A #fda331
 !----------------------------
 ! GREEN
-#define base0B #99cc99
+#define base0B #a1c659
 !----------------------------
 ! AQUA
-#define base0C #66cccc
+#define base0C #76c7b7
 !----------------------------
 ! BLUE
-#define base0D #6699cc
+#define base0D #6fb3d2
 !----------------------------
 ! PURPLE
-#define base0E #cc99cc
+#define base0E #d381c3
 !----------------------------
 ! DARK ORANGE
-#define base0F #d27b53
+#define base0F #be643c
 !----------------------------
 
