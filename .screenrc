@@ -1,0 +1,13 @@
+startup_message off # Turn off the splash screen
+defscrollback 30000 # Use a 30000-line scrollback buffer
+shelltitle '$ |bash'
+
+
+# Switch tabs
+#bindkey "^[[D" prev # ctrl-left
+#bindkey "^[[C" next # ctrl-right
+ 
+
+#hardstatus alwayslastline "%{=b}%{G}Screen @ %0`@%H: %{C}%w %=%{G}%D, %m/%d"
+hardstatus alwayslastline '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}'
+#hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}'
