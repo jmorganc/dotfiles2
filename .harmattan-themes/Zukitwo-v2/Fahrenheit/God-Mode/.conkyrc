@@ -45,15 +45,37 @@ pad_percents 2
 top_name_width 7
 
 # Color scheme #
-default_color FFFFFF
+#default_color FFFFFF
+#color1 FFFFFF
+#color2 FFFFFF
+#color3 FFFFFF
+#color4 FFFFFF
+#color5 FFFFFF
+#color6 DCDCDC
+#color7 FFFFFF
+#color8 FFFFFF
+
+# Base16 Tomorrow Dark Color Scheme #
+#dark gray
+default_color 373b41
+#white
 color1 FFFFFF
-color2 FFFFFF
-color3 FFFFFF
-color4 FFFFFF
-color5 FFFFFF
-color6 DCDCDC
-color7 FFFFFF
-color8 FFFFFF
+#gray
+color2 c5c8c6
+#gray
+color3 c5c8c6
+#light gray
+color4 c5c8c6
+#green
+color5 b5bd68
+#purple
+#color6 b294bb
+#orange
+color7 de935f
+#blue
+color8 81a2be
+#blue
+color6 81a2be
 
 TEXT
 # Various images #

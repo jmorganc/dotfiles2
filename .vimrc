@@ -2,6 +2,7 @@ set nocompatible
 
 "set background=dark
 "colorscheme base16-eighties
+colorscheme delek
 syntax on
 
 set incsearch
