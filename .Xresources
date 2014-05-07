@@ -1,7 +1,9 @@
-#include "/home/jmc0352/.colors/base16-tomorrow.dark"
-!#include "/home/jmc0352/.colors/base16-eighties.dark"
-!#include "/home/jmc0352/.colors/base16-solarized.dark"
-!#include "/home/jmc0352/.colors/base16-bright.dark"
+#include "/home/morgan/.colors/base16-tomorrow.dark"
+!#include "/home/morgan/.colors/base16-eighties.dark"
+!#include "/home/morgan/.colors/base16-solarized.dark"
+!#include "/home/morgan/.colors/base16-bright.dark"
+
+URxvt.perl-lib: /usr/lib/urxvt/perl/
 
 URxvt*foreground:   base05
 URxvt*background:   base00
@@ -27,18 +29,23 @@ URxvt*font: xft: Source Code Pro for Powerline:pixelsize=12:antialias=true:hinti
 URxvt*boldFont: xft:Source Code Pro for Powerline:bold:pixelsize=12:antialias=true:hinting=true
 !URxvt.font:-artwiz-edges-medium-r-normal--12-*-75-75-m-0-iso8859-1
 !urxvt.font: xft: Monospace:pixelsize=12
-URxvt.letterSpace: -2
+URxvt.letterSpace: 0
 !Xft.rgba: none
 
 URxvt.scrollBar: false
 
-URxvt.perl-ext-common: default,tabbed
+URxvt.perl-ext-common: default,tabbed,clipboard
 URxvt.tabbed.new-button: no
 URxvt.keysym.Control-t: perl:tabbedex:new_tab
 URxvt.tabbed.tabbar-fg: 7
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 0
 URxvt.tabbed.tab-bg: 9
+
+URxvt.iso14755: false
+URxvt.keysym.Control-Shift-C:   perl:clipboard:copy
+URxvt.keysym.Control-Shift-V:   perl:clipboard:paste
+!URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
 
 !0: black
 !1: blue
