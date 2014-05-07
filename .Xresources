@@ -5,6 +5,9 @@
 
 URxvt.perl-lib: /usr/lib/urxvt/perl/
 
+URxvt.depth: 32
+URxvt.background: [85]base00
+
 URxvt*foreground:   base05
 URxvt*background:   base00
 URxvt*cursorColor:  base0A
