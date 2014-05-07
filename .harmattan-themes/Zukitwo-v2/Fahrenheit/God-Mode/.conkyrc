@@ -57,7 +57,7 @@ color8 FFFFFF
 
 TEXT
 # Various images #
-${execi 300 curl -s "http://weather.yahooapis.com/forecastrss?w=44418&u=f" -o ~/.cache/weather.xml}
+${execi 300 curl -s "http://weather.yahooapis.com/forecastrss?w=2480733&u=f" -o ~/.cache/weather.xml}
 ${image ~/.conky-weather/assets/Zukitwo-v2/God-Mode/top-bg.png -p 20,30 -s 228x61}\
 ${image ~/.conky-weather/assets/Zukitwo-v2/God-Mode/bottom-bg.png -p 20,492 -s 228x99}\
 ${image ~/.conky-weather/assets/Zukitwo-v2/God-Mode/bg-1.png -p 20,177 -s 228x86}\
