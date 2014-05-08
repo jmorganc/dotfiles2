@@ -34,8 +34,7 @@ show_graph_range no
 # Text settings #
 use_xft yes
 xftalpha 0
-xftfont lemon:size=11
-#xftfont lemon:size=8
+xftfont Droid Sans:size=8
 #xftfont Source Sans Pro:size=8
 text_buffer_size 256
 override_utf8_locale yes
@@ -110,16 +109,16 @@ ${color2}${voffset -10}${alignc -77}${execi 300 grep "yweather:forecast" ~/.cach
 \
 # The "conditions" section of the conky #
 \
-${goto 36}${voffset -162}${font lemon :size=36}${color1}${execi 300 grep "yweather:condition" ~/.cache/weather.xml | grep -o "temp=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}°${font}${color}
-${goto 46}${voffset 10}${font lemon :size=12}${color1}${execi 300 grep "yweather:condition" ~/.cache/weather.xml | grep -o "text=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}${font}${color}
+${goto 36}${voffset -162}${font Droid Sans :size=36}${color1}${execi 300 grep "yweather:condition" ~/.cache/weather.xml | grep -o "temp=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}°${font}${color}
+${goto 46}${voffset 10}${font Droid Sans :size=12}${color1}${execi 300 grep "yweather:condition" ~/.cache/weather.xml | grep -o "text=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}${font}${color}
 ${color1}${alignr 52}${voffset -55}${execi 300 grep "yweather:atmosphere" ~/.cache/weather.xml | grep -o "pressure=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"} ${execi 300 grep "yweather:units" ~/.cache/weather.xml | grep -o "pressure=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}
 ${color1}${alignr 52}${voffset 11}${execi 300 grep "yweather:atmosphere" ~/.cache/weather.xml | grep -o "humidity=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"} %${color}
 ${color1}${alignr 52}${voffset 11}${execi 300 grep "yweather:wind" ~/.cache/weather.xml | grep -o "speed=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"} ${execi 300 grep "yweather:units" ~/.cache/weather.xml | grep -o "speed=\"[^\"]*\"" | grep -o "\"[^\"]*\"" | grep -o "[^\"]*"}${color}
 \
 # Clock + calendar #
 \
-${voffset -120}${font lemon :size=22}${alignc}${color2}${time %H:%M}${font}${color}
-${voffset 4}${font lemon :size=10}${alignc}${color6}${time %A, %B %d}${font}${color}
+${voffset -120}${font Droid Sans Mono :size=22}${alignc}${color2}${time %H:%M}${font}${color}
+${voffset 4}${font Droid Sans :size=10}${alignc}${color6}${time %A, %B %d}${font}${color}
 \
 # Cpu, memory, uptime, and load graph #
 \
