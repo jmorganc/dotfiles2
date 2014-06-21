@@ -30,15 +30,18 @@ URxvt*color15:      base07
 
 !Xft.rgba: none
 !Xft.dpi: 0
-Xft.antialias: true
+!Xft.antialias: true
+!Xft.pixelsize: 11
 
-URxvt*font: xft:lemon:size=11
-URxvt*boldFont: xft:lemon:bold:size=11
-!URxvt*font: xft:Source Code Pro for Powerline:pixelsize=12:antialias=true:hinting=true
-!URxvt*boldFont: xft:Source Code Pro for Powerline:bold:pixelsize=12:antialias=true:hinting=true
+!URxvt*font: xft:lemon:pixelsize=11:hinting=true:antialias=true
+!URxvt*boldFont: xft:lemon:bold:pixelsize=11:hinting=true:antialias=true
+URxvt*font: xft:Source Code Pro for Powerline:pixelsize=10:hinting=true:antialias=true
+URxvt*boldFont: xft:Source Code Pro for Powerline:bold:pixelsize=10:hinting=true:antialias=true
 !URxvt.font:-artwiz-edges-medium-r-normal--12-*-75-75-m-0-iso8859-1
 !urxvt.font: xft:Monospace:pixelsize=12
-URxvt.letterSpace: 0
+!URxvt.letterSpace: 0
+URxvt.letterSpace: -1
+
 
 URxvt.scrollBar: false
 
