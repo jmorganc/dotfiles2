@@ -1,0 +1,4 @@
+export LANG=en_US.UTF-8
+export TERM=rxvt-unicode
+HISTSIZE=5000
+HISTFILESIZE=5000
