@@ -1,0 +1,75 @@
+#include "/home/morgan/.colors/base16-tomorrow.dark"
+!#include "/home/morgan/.colors/base16-eighties.dark"
+!#include "/home/morgan/.colors/base16-solarized.dark"
+!#include "/home/morgan/.colors/base16-bright.dark"
+
+URxvt.perl-lib: /usr/lib/urxvt/perl/
+
+URxvt.depth: 32
+URxvt.background: [85]base00
+
+URxvt*foreground:   base05
+URxvt*background:   base00
+URxvt*cursorColor:  base0A
+URxvt*color0:       base00
+URxvt*color1:       base08
+URxvt*color2:       base0B
+URxvt*color3:       base0A
+URxvt*color4:       base0D
+URxvt*color5:       base0E
+URxvt*color6:       base0C
+URxvt*color7:       base05
+URxvt*color8:       base03
+URxvt*color9:       base09
+URxvt*color10:      base0B
+URxvt*color11:      base02
+URxvt*color12:      base0D
+URxvt*color13:      base06
+URxvt*color14:      base0C
+URxvt*color15:      base07
+
+!Xft.rgba: none
+!Xft.dpi: 0
+!Xft.antialias: true
+!Xft.pixelsize: 11
+
+!URxvt*font: xft:lemon:pixelsize=11:hinting=true:antialias=true
+!URxvt*boldFont: xft:lemon:bold:pixelsize=11:hinting=true:antialias=true
+URxvt*font: xft:Source Code Pro:pixelsize=12:hinting=true:antialias=true
+URxvt*boldFont: xft:Source Code Pro:bold:pixelsize=12:hinting=true:antialias=true
+!URxvt.font:-artwiz-edges-medium-r-normal--12-*-75-75-m-0-iso8859-1
+!urxvt.font: xft:Monospace:pixelsize=12
+!URxvt.letterSpace: 0
+URxvt.letterSpace: -2
+
+
+URxvt.scrollBar: false
+
+URxvt.perl-ext-common: default,tabbed,clipboard
+URxvt.tabbed.new-button: no
+URxvt.keysym.Control-t: perl:tabbedex:new_tab
+URxvt.tabbed.tabbar-fg: 7
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 9
+
+URxvt.iso14755: false
+URxvt.keysym.Control-Shift-C:   perl:clipboard:copy
+URxvt.keysym.Control-Shift-V:   perl:clipboard:paste
+!URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+
+!0: black
+!1: blue
+!2: green
+!3: red
+!4: blue
+!5: purple
+!6: aqua
+!7: light gray
+!8: dark gray
+!9: orange
+!10: black/darkdark gray
+!11: lightdark gray
+!12: light gray
+!13: lightlight gray
+!14: dark orange
