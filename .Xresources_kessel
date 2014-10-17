@@ -1,7 +1,7 @@
-#include "/home/jmc0352/.colors/base16-tomorrow.dark"
-!#include "/home/jmc0352/.colors/base16-eighties.dark"
-!#include "/home/jmc0352/.colors/base16-solarized.dark"
-!#include "/home/jmc0352/.colors/base16-bright.dark"
+#include "/home/jmc150130/.colors/base16-tomorrow.dark"
+!#include "/home/jmc150130/.colors/base16-eighties.dark"
+!#include "/home/jmc150130/.colors/base16-solarized.dark"
+!#include "/home/jmc150130/.colors/base16-bright.dark"
 
 URxvt.perl-lib: /usr/lib/urxvt/perl/
 
@@ -28,8 +28,8 @@ URxvt*color13:      base06
 URxvt*color14:      base0C
 URxvt*color15:      base07
 
-URxvt*font: xft: Source Code Pro for Powerline:pixelsize=12:antialias=true:hinting=true
-URxvt*boldFont: xft:Source Code Pro for Powerline:bold:pixelsize=12:antialias=true:hinting=true
+URxvt*font: xft: Source Code Pro:pixelsize=12:antialias=true:hinting=true
+URxvt*boldFont: xft:Source Code Pro:bold:pixelsize=12:antialias=true:hinting=true
 !URxvt.font:-artwiz-edges-medium-r-normal--12-*-75-75-m-0-iso8859-1
 !urxvt.font: xft: Monospace:pixelsize=12
 URxvt.letterSpace: -2
@@ -40,6 +40,7 @@ URxvt.scrollBar: false
 URxvt.perl-ext-common: default,tabbed,clipboard
 URxvt.tabbed.new-button: no
 URxvt.keysym.Control-t: perl:tabbedex:new_tab
+URxvt.keysym.Shift-up: perl:tabbedex:tab_destroy
 URxvt.tabbed.tabbar-fg: 7
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 0
