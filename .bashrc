@@ -12,3 +12,5 @@ then
     color_path='\[\033[00;31m\]'
 fi
 PS1="\`if [[ "\w" == "/mnt/webdav/*" ]]; then echo \"\[\033[04;30;41m\]\"; else echo \"\[\033[05;30;42m\]\"; fi\` \u @ \h \[\033[00m\] [\t] [\`if [[ "\w" == "/mnt/webdav/*" ]]; then echo \"\[\033[00;31m\]\"; else echo \"\[\033[01;34m\]\"; fi\`\w\[\033[00m\]] \$ \[\033[00m\]"
+
+export PATH="$HOME/.composer/vendor/bin:$PATH"

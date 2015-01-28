@@ -1,0 +1,15 @@
+{
+	"theme": "Centurion.sublime-theme",
+	"centurion_color_blue": true,
+	"color_scheme": "Packages/Base16 Color Schemes/base16-eighties.dark.tmTheme",
+	//"color_scheme": "Packages/Base16 Color Schemes/base16-eighties.dark.tmTheme",
+	"font_face": "Source Code Pro",
+	"font_size": 10,
+	"tab_size": 4,
+    "translate_tabs_to_spaces": true,
+	
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}
