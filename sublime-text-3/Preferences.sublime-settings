@@ -1,14 +1,14 @@
 {
-    "centurion_color_blue": true,
-    "color_scheme": "Packages/Base16 Color Schemes/base16-eighties.dark.tmTheme",
-    "font_face": "Source Code Pro",
-    "font_size": 9,
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-    "tab_size": 4,
-    "theme": "Centurion.sublime-theme",
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true
+	"centurion_color_blue": true,
+	"color_scheme": "Packages/Base16 Color Schemes/base16-eighties.dark.tmTheme",
+	"font_face": "Source Code Pro",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "Centurion.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
